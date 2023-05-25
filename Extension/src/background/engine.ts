@@ -20,10 +20,11 @@ import { debounce } from 'lodash';
 import {
     TsWebExtension,
     ConfigurationMV2,
+    LogLevelName,
     MESSAGE_HANDLER_NAME,
 } from '@adguard/tswebextension';
 
-import { Log, LogLevelString } from '../common/log';
+import { Log } from '../common/log';
 import { WEB_ACCESSIBLE_RESOURCES_OUTPUT } from '../../../constants';
 
 import { listeners } from './notifier';
@@ -190,7 +191,7 @@ export class Engine {
 
         return {
             verbose: false,
-            logLevel: LogLevelString.Error,
+            logLevel: LogLevelName.Info,
             filters,
             userrules,
             allowlist,
