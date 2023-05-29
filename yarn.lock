@@ -48,10 +48,10 @@
     tldts "5.6.45"
     zod "3.19.1"
 
-"@adguard/tswebextension@^0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@adguard/tswebextension/-/tswebextension-0.2.1.tgz#289e1a7bd61bb999de2c6d8350c7e412979816a3"
-  integrity sha512-+/vkRqY00qkMoC8kBaVPaU4NTvbKpt0A1N35sOvKOtqkOQL3H7i4McPLNQbMXiSgaxS0cUqtVSM+QorlikWjeg==
+"@adguard/tswebextension@^0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@adguard/tswebextension/-/tswebextension-0.2.2.tgz#f5f09c4a705026e833dce0e84004816b1aa6a296"
+  integrity sha512-uIVH6ZjZbEnROqfhEgM868ewSSMZO7AtM7G9ACseOiKMSLyy9gWH0uGqA28Ocb1IgANTQbuqHrcvAiwoLlRa3Q==
   dependencies:
     "@adguard/assistant" "^4.3.69"
     "@adguard/extended-css" "^2.0.52"
